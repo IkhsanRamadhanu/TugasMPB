@@ -1,0 +1,68 @@
+{
+  "components": [
+    {
+      "label": "Credential",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ngflm7",
+        "columns": null
+      },
+      "id": "Field_0mqo3fn",
+      "key": "credential",
+      "description": "Tanda pengenal dari dosen"
+    },
+    {
+      "label": "Tahun Akademik",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_081xckg",
+        "columns": null
+      },
+      "id": "Field_0czxwh2",
+      "key": "academicData",
+      "description": "Data tahun akademik yang dibutuhkan"
+    },
+    {
+      "subtype": "date",
+      "dateLabel": "Tanggal Rapat",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1oaq7um",
+        "columns": null
+      },
+      "id": "Field_0ceaknl",
+      "key": "rapatDosen",
+      "description": "Tanggal rapat bersama semua dosen dilaksanakan"
+    },
+    {
+      "label": "Agenda Rapat",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zo2fan",
+        "columns": null
+      },
+      "id": "Field_0ovhxpx",
+      "key": "agendaRapat",
+      "description": "Agenda yang akan dibahas didalam rapat"
+    },
+    {
+      "label": "Kompilasi Evaluasi",
+      "type": "filepicker",
+      "layout": {
+        "row": "Row_0t85w5p",
+        "columns": null
+      },
+      "id": "Field_0lh5qhi",
+      "key": "kompilasiEvaluasi"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0ypnls3",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.32.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}

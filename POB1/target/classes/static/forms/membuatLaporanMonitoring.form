@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "label": "Credential",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ngflm7",
+        "columns": null
+      },
+      "id": "Field_0mqo3fn",
+      "key": "credential",
+      "description": "Tanda pengenal dari dosen"
+    },
+    {
+      "label": "File Data Progress",
+      "type": "filepicker",
+      "layout": {
+        "row": "Row_0eus9p3",
+        "columns": null
+      },
+      "id": "Field_0gl2gqw",
+      "key": "dataProgress"
+    },
+    {
+      "label": "Status Progres",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0cq1svi",
+        "columns": null
+      },
+      "id": "Field_0zgoa30",
+      "key": "statusProgres",
+      "validate": {
+        "required": true,
+        "pattern": "Ya|Tidak"
+      },
+      "description": "Status progres dari data progres"
+    }
+  ],
+  "type": "default",
+  "id": "Form_0ypnls3",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.32.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}

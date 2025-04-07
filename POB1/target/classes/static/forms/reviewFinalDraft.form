@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "label": "Credential",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_192hegz",
+        "columns": null
+      },
+      "id": "Field_14mmyqo",
+      "key": "credentialKepalaProdi",
+      "description": "Tanda Pengenal Dosen"
+    },
+    {
+      "label": "File Draft Final",
+      "type": "filepicker",
+      "layout": {
+        "row": "Row_10oelc1",
+        "columns": null
+      },
+      "id": "Field_1lrrimw",
+      "key": "FileDraftFinal"
+    },
+    {
+      "label": "Hasil Revisi",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1un1m2r",
+        "columns": null
+      },
+      "id": "Field_1ohsn04",
+      "key": "hasilRevisi",
+      "description": "Status hasil revisi",
+      "validate": {
+        "pattern": "Ya|Tidak",
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_0ypnls3",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.32.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.22.0",
+  "schemaVersion": 18
+}
